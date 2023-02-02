@@ -1,3 +1,30 @@
+.navbar-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  outline: none;
+}
+
+.menu_list li {
+  padding: 5px 10px;
+}
+
+.menu_list li a {
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

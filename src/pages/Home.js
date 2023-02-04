@@ -12,7 +12,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setUsers(data.reverse()))
     }
-
+    console.log(users)
     useEffect(() => {
         loaderUser()
     }, [users])

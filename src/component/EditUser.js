@@ -12,7 +12,7 @@ const EditUser = () => {
         fetch(`http://localhost:5000/users/${id}`)
             .then(res => res.json())
             .then(data => setUser(data))
-    }, [])
+    }, [id])
 
     const handleUpdate = (e) => {
         e.preventDefault();
